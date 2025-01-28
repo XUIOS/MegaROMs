@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="MegaROMs" />
+    <meta
+      name="keywords"
+      content="Android 13, ROM, Port ROM, MegaOS, MegaROMs"
+    />
+    <title>MegaOS - MegaROMs</title>
+    <link rel="icon" href="../../images/android13.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../../css/styles.css" />
+    <link rel="stylesheet" href="../../css/rom-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="page-enter">
+    <header class="centered-header">
+      <div class="container">
+        <a href="../android13" class="back-button">
+          <i class="fas fa-arrow-left" aria-label="Back"></i>
+          Back to Android 13 ROMs
+        </a>
+        <h1>MegaOS first build</h1>
+      </div>
+    </header>
+
+    <main class="download-container">
+      <div class="download-card">
+        <div class="version-info">
+          <div class="meta-item">
+            <i class="fas fa-code-branch" aria-label="Version"></i>
+            <span>Version: 1.0.6 (MI)</span>
+          </div>
+          <div class="meta-item">
+            <i class="fas fa-hdd" aria-label="Size"></i>
+            <span>Size: 2.65GB</span>
+          </div>
+          <div class="meta-item">
+            <i class="fas fa-calendar-alt" aria-label="Release Date"></i>
+            <span>Release Date: 2024-08-30</span>
+          </div>
+          <div class="meta-item">
+            <i class="fas fa-user-shield" aria-label="Author"></i>
+            <span
+              >By:
+              <a
+                href="https://t.me/LLXCD_EGY"
+                class="author-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Adham</a
+              ></span
+            >
+          </div>
+        </div>
+
+        <div class="button-group">
+          <button id="changelog-btn" class="button">ChangeLOG</button>
+          <button id="howtoflash-btn" class="button">Flashing steps</button>
+        </div>
+
+        <div id="changelog-popup" class="popup">
+          <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <h2>ChangeLOG</h2>
+            <ul>
+              <li>ROM based on Xiaomi EU</li>
+              <li>Multi language</li>
+              <li>Added Saturn notch</li>
+              <li>No freeze in AOD</li>
+              <li>Added 1HZ option</li>
+              <li>Mod launcher</li>
+              <li>Leica camera 5.0xxxxxx</li>
+              <li>Exsonic kernel by default non KSU</li>
+              <li>High FPS all games</li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="howtoflash-popup" class="popup">
+          <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <h2>How to Flash</h2>
+            <ul>
+              <li>
+                Download recommended recovery
+                <a
+                  href="https://t.me/MegatronsBiulds/19"
+                  class="button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  referrerpolicy="no-referrer"
+                  >Download</a
+                >
+              </li>
+              <li>Reboot to recovery</li>
+              <li>Flash ROM</li>
+              <li>Format data (yes)</li>
+              <li>Reboot to recovery again</li>
+              <li>Format data (yes)</li>
+              <li>Reboot to system... Enjoy</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="download-links">
+          <div class="link-group">
+            <h2>
+              <i class="fas fa-download" aria-label="Downloads"></i> Official
+              Downloads
+            </h2>
+            <a
+              href="https://drive.google.com/file/d/1zsns_11KugbTpZNRiGewD3eqL6bbabmB/view?usp=sharing"
+              class="download-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              referrerpolicy="no-referrer"
+            >
+              <i class="fab fa-android fa-2x"></i>
+              <div>
+                <h3>GoogleDrive</h3>
+                <p>Download the ROM from Google Drive</p>
+              </div>
+            </a>
+          </div>
+          <div class="link-group">
+            <h2>
+              <i class="fas fa-server" aria-label="Mirror Servers"></i> Mirror
+              Servers
+            </h2>
+            <a
+              href="https://devuploads.com/n1naxkbhio3c"
+              class="download-link mirror-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              referrerpolicy="no-referrer"
+            >
+              <i class="fas fa-bolt fa-2x"></i>
+              <div>
+                <h3>DevUploads</h3>
+                <p>Download the ROM from DevUploads</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="security-notice">
+          <h2>
+            <i class="fas fa-shield-alt" aria-label="Security"></i> File
+            Verification
+          </h2>
+          <div class="checksum-section">
+            <code id="sha256-checksum" class="checksum-code"> </code>
+          </div>
+          <div class="verification-instructions">
+            <h3>
+              <i class="fas fa-info-circle" aria-label="Info"></i> Check that
+              the file is not corrupted before installing it.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 MegaROMs. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="../../js/rom-script.js" defer></script>
+    <script src="../../js/script.js" defer></script>
+  </body>
+</html>
